@@ -27,3 +27,9 @@ print (squares[0:2])
 
 # tip - to reverse all list use mylist[::-1]
 
+# a list comprehension
+cubes = [i**3 for i in range(5)]
+print (cubes)
+
+a = [x*10 for x in range(5, 9)]
+print (a)
